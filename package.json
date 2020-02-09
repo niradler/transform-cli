@@ -1,6 +1,6 @@
 {
   "name": "transform-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cli to transform data from one type to another.",
   "main": "index.js",
   "bin": {
@@ -10,7 +10,10 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "transform",
+    "cli"
+  ],
   "author": "Nir Adler",
   "license": "mit",
   "dependencies": {
@@ -19,5 +22,16 @@
   "devDependencies": {
     "execa": "^4.0.0",
     "jest": "^25.1.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niradler/transform-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niradler/transform-cli/issues"
+  },
+  "homepage": "https://github.com/niradler/transform-cli#readme"
 }
