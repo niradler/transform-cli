@@ -1,0 +1,23 @@
+{
+  "name": "transform-cli",
+  "version": "0.0.1",
+  "description": "cli to transform data from one type to another.",
+  "main": "index.js",
+  "bin": {
+    "transform-cli": "index.js",
+    "tc": "index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Nir Adler",
+  "license": "mit",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "execa": "^4.0.0",
+    "jest": "^25.1.0"
+  }
+}
