@@ -19,8 +19,8 @@ npm i -g transform-cli
 ## Example
 
 ```
-echo test | ./index.js --ft="txt" --tt="base64"
-echo dGVzdA== | ./index.js --ft="base64" --tt="txt"
+echo test | tc --ft="txt" --tt="base64"
+echo dGVzdA== | tc --ft="base64" --tt="txt"
 ```
 
 ## Converters
